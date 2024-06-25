@@ -29,7 +29,7 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - name: Unit tests
-        run: go test github.com/onosproject/onos-ric-sdk-go/pkg/...
+        run: make test
 
   license-check:
     runs-on: ubuntu-latest
